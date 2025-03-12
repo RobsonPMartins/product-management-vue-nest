@@ -28,4 +28,4 @@ O sistema permite as seguintes operações com produtos:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/usuario/nome-do-repositorio.git
+   git clone https://github.com/RobsonPMartins/product-management-vue-nest.git
