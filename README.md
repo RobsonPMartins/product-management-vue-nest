@@ -1,39 +1,31 @@
-# products-app
+# Front-end: Vue.js with Tailwind CSS
 
-This template should help get you started developing with Vue 3 in Vite.
+Este repositório contém o front-end de um sistema de gerenciamento de produtos, desenvolvido utilizando Vue.js para a estrutura do JavaScript e Tailwind CSS para estilização.
 
-## Recommended IDE Setup
+## Funcionalidades
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+O sistema permite as seguintes operações com produtos:
 
-## Type Support for `.vue` Imports in TS
+- **Listagem de Produtos**: Exibe todos os produtos da API em uma tabela estilizada com Tailwind CSS.
+- **Detalhes de Produto**: Exibe os detalhes de um produto individual ao clicar na lista de produtos.
+- **Cadastro de Produto**: Formulário para criar novos produtos com campos nome, preço e descrição.
+- **Edição de Produto**: Formulário para editar informações de produtos existentes.
+- **Exclusão de Produto**: Permite excluir produtos da lista.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Tecnologias Usadas
 
-## Customize configuration
+- **Vue.js**: Framework JavaScript para construção da interface reativa.
+- **Tailwind CSS**: Framework CSS utilitário para estilização rápida e responsiva.
+- **Axios (opcional)**: Para fazer chamadas HTTP à API de back-end.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Pré-requisitos
 
-## Project Setup
+- Node.js e npm instalados em sua máquina. Para instalar, acesse: [Node.js](https://nodejs.org/)
+- A API de back-end (NestJS) deve estar em funcionamento e acessível para integração com o front-end.
 
-```sh
-npm install
-```
+## Instalação
 
-### Compile and Hot-Reload for Development
+1. Clone o repositório:
 
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+   ```bash
+   git clone https://github.com/usuario/nome-do-repositorio.git
